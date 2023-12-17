@@ -80,7 +80,8 @@ else if(refresh_tick && !pause)
 else
     begin // this part could have been in else if.
     //it is here because gate level path was too long 
-    if(enter_key) //turbo, road moves 2X the speed
+     if(enter_key) //speed of road increase
+      
      tempC <= (counter + 4*MAX_Y - 4);
     else
      tempC <= (counter + 4*MAX_Y - 2);
